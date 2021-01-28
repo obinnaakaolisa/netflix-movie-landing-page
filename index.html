@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Movie Landing Page</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" href="assets/images/nficon2016.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="assets/images/logo.png" alt="Netflix Logo">
+        </a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" name="search_text" id="search_text" placeholder="Search Movie">
+            <i class="fas fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="assets/images/bg.jpg" alt="banner-bg" class="bg">
+        <div class="content">
+            <img src="assets/images/name.png" alt="movie-title" class="movie-title">
+            <h4>
+                <span>2020</span>
+                <span><i>12+</i></span>
+                <span>1h 55min</span>
+                <span>Action</span>
+            </h4>
+            <p class="">
+                Fearful that her ailing father will be drafted into the Chinese military, Mulan (Ming-Na Wen) takes his spot -- though, as a girl living under a patriarchal regime, she is technically unqualified to serve. She cleverly impersonates a man and goes off to train with fellow recruits. Accompanied by her dragon, Mushu (Eddie Murphy), she uses her smarts to help ward off a Hun invasion, falling in love with a dashing captain along the way.
+            </p>
+            <div class="buttons">
+                <a href="#"><i class="fas fa-play-circle" aria-hidden="true"></i> Play</a>
+                <a href="#"><i class="fas fa-plus-circle" aria-hidden="true"></i> My List</a>
+            </div>
+        </div>
+        <a href="#" class="play">
+            <img src="assets/images/play.png" alt="play-icon">
+            Watch Trailer
+        </a>
+    </div>
+
+    <div class="trailer">
+        <video src="assets/videos/mulan-trailer.mp4" controls poster="assets/images/bg.jpg"></video>
+        <img src="assets/images/close.png" alt="video-close-icon" class="close-icon">
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
